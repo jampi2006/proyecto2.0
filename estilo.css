@@ -1,0 +1,45 @@
+.body1 {
+background-color: rgb(0, 0, 0) ;
+}
+
+.body2 {
+    background-color: darkturquoise;
+}
+
+.body3 {
+    background-color: bisque;
+}
+
+.inicioColor {
+     color: rgb(255, 255, 255);
+     display: grid;
+     grid-template-columns: 10% 50% 40%;
+     text-align: end;
+}
+
+p{
+    color: rgb(255, 255, 255);
+} 
+
+.tamaño1 {
+    font-size: 50px;
+    margin-top: -30px;
+}
+
+.segundoColor {
+    color: aliceblue;
+}
+
+.img1 {
+    margin-left: 50%;
+}
+
+.centro1 {
+    text-align: center;
+}
+
+.centro2 {
+    text-align: center;
+}
+
+/* background-image: url(); */
