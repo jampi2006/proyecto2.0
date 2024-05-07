@@ -3,11 +3,7 @@ background-color: rgb(0, 0, 0) ;
 }
 
 .body2 {
-    background-color: darkturquoise;
-}
-
-.body3 {
-    background-color: bisque;
+    background-color: aqua;
 }
 
 .inicioColor {
@@ -34,12 +30,6 @@ p{
     margin-left: 50%;
 }
 
-.centro1 {
+.centro {
     text-align: center;
 }
-
-.centro2 {
-    text-align: center;
-}
-
-/* background-image: url(); */
