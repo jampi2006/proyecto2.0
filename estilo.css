@@ -1,5 +1,8 @@
 .body1 {
-background-color: rgb(0, 0, 0) ;
+background-image: url(img/siisi.gif);
+background-repeat: no-repeat;
+background-color: black;
+
 }
 
 .body2 {
@@ -9,7 +12,7 @@ background-color: rgb(0, 0, 0) ;
 .inicioColor {
      color: rgb(255, 255, 255);
      display: grid;
-     grid-template-columns: 10% 50% 40%;
+     grid-template-columns: 10% 40% 40%;
      text-align: end;
 }
 
