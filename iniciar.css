@@ -54,7 +54,7 @@ input {
     width: 200px;
 }
 
-button {
+.boton {
     background-color: rgb(215, 134, 219);
     height: 40x;
     line-height: 40px;
