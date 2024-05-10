@@ -1,0 +1,13 @@
+body {
+    background-color: lightslategray;
+    color: rgb(0, 255, 247);
+}
+
+.inicio {
+    text-align: center;
+}
+
+.fav {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}

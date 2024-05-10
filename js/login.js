@@ -12,4 +12,4 @@ loginForm.addEventListener('submit', (e)=>{
     localStorage.setItem('login_success', JSON.stringify(validUser))
     window.location.href = 'ingresoPortafolio.html'   
 
-})
+})  
