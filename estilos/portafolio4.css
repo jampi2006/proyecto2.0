@@ -11,3 +11,43 @@ body {
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
+
+#aggElements {
+    color: black;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgb(0, 217, 220);
+    border-radius: 5px;
+}
+
+#si {
+    background-color: rgb(3, 13, 23);
+    color: rgb(0, 255, 247);
+
+}
+
+#si2 {
+    background-color: rgb(3, 13, 23);
+    color: rgb(0, 255, 247);
+
+}
+
+#si3 {
+    background-color: rgb(3, 13, 23);
+    color: rgb(0, 255, 247);
+
+}
+
+.si1 {
+    color: pink;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-around; 
+}
+
+#input3 {
+    color: pink;
+}

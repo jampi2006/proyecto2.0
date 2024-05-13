@@ -6,9 +6,9 @@ if(!user){
 const cerrar = document.querySelector('#cerrar')
 
 cerrar.addEventListener('click', ()=>{
-    alert('Chao sapo')
+    alert(' Gracias no vuelvas pronto')
     localStorage.removeItem('login_success')
-    window.location.href = 'registrar.html'
+    window.location.href = 'index.html'
 })
 
 let nombre = document.getElementById('escribir')
