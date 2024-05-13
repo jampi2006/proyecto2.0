@@ -11,19 +11,18 @@
     justify-content: center;
 }
 
-.inicio {
+#inicio {
     text-transform: uppercase;
     font-size: 5rem;
     cursor: pointer;
     transition: 1s linear;
-    color: transparent;
+    color: transparent black;
     -webkit-text-stroke: 2px rgb(31, 244, 226);
 }
 
-.inicio:hover {
-    color: rgb(19, 152, 179);
-    text-shadow: 0 0 10PX,
-               
+#incio:hover {
+    color: darkturquoise;
+    text-shadow: 0 0 10px;          
 }
 
 .container2 {
@@ -35,7 +34,7 @@
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     width: 30%;
-    height: 400px;
+    height: 350px;
     margin-left: 37%;
     margin-top: 2%;
     border-radius: 20px;
@@ -53,33 +52,51 @@
     margin-left: 24%;
     margin-top: 2%;
     border-radius: 50%;
-    border: solid 11px skyblue;
+    border: solid 10px skyblue;
 }
 
 .correo {
 text-align: center;
 }
 
-.nombre {
+#nombre {
     text-align: center;
     font-family: bolder;
     font-size: 27px;
     margin-bottom: 4%;
 }
 
-.ful {
+#ful {
     text-align: center;
     color: gray;
 }
 
-.nivel {
+#nivel {
     text-align: center;
     color: gray;
 }
 
-.correo {
+#correo1 {
     display: grid;
     grid-template-columns: 10% 60%;
     justify-content: center;
     color: gray;
+}
+
+#cerrar {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100px;
+}
+
+#aggElements {
+    color: black;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgb(0, 217, 220);
+    border-radius: 5px;
+}
+
+.container4 {
+    display: flex;
 }

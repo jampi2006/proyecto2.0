@@ -18,31 +18,31 @@
 
 
 #infos1 {
-    border: solid 2px red;
-    width: 100px;
+    border: solid 2px rgb(0, 255, 208);
+    width: 200px;
     height: 20px;
 }
 
 #infos2 {
-    border: solid 2px red;
-    width: 100px;
+    border: solid 2px rgb(255, 0, 195);
+    width: 200px;
     height: 20px;
 }
 
 #infos3 {
-    border: solid 2px red;
-    width: 100px;
+    border: solid 2px rgb(0, 0, 0);
+    width: 200px;
     height: 20px;
 }
 
 #infos4 {
-    border: solid 2px red;
-    width: 100px;
+    border: solid 2px rgb(12, 231, 111);
+    width: 200px;
     height: 20px;
 }
 
 #infos5 {
-    border: solid 2px red;
-    width: 100px;
+    border: solid 2px rgb(255, 174, 0);
+    width: 200px;
     height: 20px;
 }
