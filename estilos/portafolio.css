@@ -26,8 +26,8 @@
 }
 
 .container2 {
-    display: flex;/*esto los alinea*/
-    justify-content: space-around; /*sirve para separarlos*/
+    display: flex;/* para alinear */
+    justify-content: space-around; /* para darles un espacio */
 }
 
 .container3 {
