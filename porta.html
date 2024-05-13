@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum De Japi</title>
+    <title>Portafolio de Japi</title>
     <link rel="stylesheet" href="estilos/portafolio.css">
 </head>
-<body style="background-color: rgb(91, 88, 88);">
+<body style="background-color: rgb(91, 88, 88);"> 
     <div class="container1">
-        <h4 class="inicio">
-            Jamphier
-        </h4>
+        <div id="inicio">
+            Inicio
+        </div>
     </div>
-
+    <div   class="boton">
+        <button id="aggElements">Enviar Info</button> <br> <br><br>
+    </div>
     <div>
         <div class="container2">
             <div><a class="link" href="porta1.html">Mis proyectos</a></div>
@@ -24,15 +26,30 @@
 
     <div>
         <div class="container3">
-            <img class="img1" src="img/rico.jpg" alt="">
-            <div class="nombre">Orella Aguirre</div>
-            <div class="ful" >Full Stack Dev</div>
-            <div class="nivel">Nivel: Intermedio</div><br>
-            <div class="correo">
+            <img class="img1" src="img/perfil.jpg" alt="">
+            <div id="nombre">Orella Aguirre</div>
+            <div id="ful" >Full Stack Dev</div>
+            <div id="nivel">Nivel: Intermedio</div><br>
+            <div id="correo1">
                 <img src="img/icons8-correo-50.png" alt="" width="20px" height="auto">
-                <div>jamphierorellana641@gmail.com</div>
+                <div id="correo">jamphierorellana641@gmail.com</div>
             </div>
         </div>
     </div>
+    
+    <div>
+        <button id="cerrar">Cerrar Sesión</button>
+    </div>
+
+    <div class="container4">
+        <h3 style="color: white;">nombre y apellido</h3>
+        <div><input type="text" id="escribir"></div>
+        <h3 style="color: white;">nivel</h3>
+        <div><input type="text" id="escribir2"></div>
+        <h3 style="color: white;">correo</h3>
+        <div><input type="Gmail" id="escribir3"></div><br>
+
+    </div>
+<script src="js/porta.js"></script>
 </body>
 </html>
